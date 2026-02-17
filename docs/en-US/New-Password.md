@@ -5,38 +5,34 @@ online version:
 schema: 2.0.0
 ---
 
-# Get-RandomString
+# New-Password
 
 ## SYNOPSIS
-
-Generates random string from provided characters
+{{ Fill in the Synopsis }}
 
 ## SYNTAX
 
 ```
-Get-RandomString [[-Length] <Int32>] [[-Number] <Char[]>] [[-Letter] <Char[]>] [[-Capital] <Char[]>]
+New-Password [[-Length] <Int32>] [[-Number] <Char[]>] [[-Letter] <Char[]>] [[-Capital] <Char[]>]
  [[-Symbol] <Char[]>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-
 {{ Fill in the Description }}
 
 ## EXAMPLES
 
 ### Example 1
-
 ```powershell
-Get-RandomString -Length 20
+PS C:\> {{ Add example code here }}
 ```
 
-Generates random string using 20 characters
+{{ Add example description here }}
 
 ## PARAMETERS
 
 ### -Capital
-
-List of capital letters to use
+{{ Fill Capital Description }}
 
 ```yaml
 Type: Char[]
@@ -51,8 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -Length
-
-The string length
+{{ Fill Length Description }}
 
 ```yaml
 Type: Int32
@@ -67,8 +62,7 @@ Accept wildcard characters: False
 ```
 
 ### -Letter
-
-List of lowercase letters to use
+{{ Fill Letter Description }}
 
 ```yaml
 Type: Char[]
@@ -83,8 +77,7 @@ Accept wildcard characters: False
 ```
 
 ### -Number
-
-List of numbers to use
+{{ Fill Number Description }}
 
 ```yaml
 Type: Char[]
@@ -99,8 +92,7 @@ Accept wildcard characters: False
 ```
 
 ### -Symbol
-
-List of symbol characters to use
+{{ Fill Symbol Description }}
 
 ```yaml
 Type: Char[]
@@ -124,8 +116,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### System.String
-
-The generated string
 
 ## NOTES
 

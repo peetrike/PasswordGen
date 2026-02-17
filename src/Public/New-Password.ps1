@@ -1,5 +1,6 @@
-﻿function Get-RandomString {
+﻿function New-Password {
     # .EXTERNALHELP PasswordGen-help.xml
+    [Alias('Get-RandomString')]
     [OutputType([string])]
     [CmdletBinding()]
     param (
