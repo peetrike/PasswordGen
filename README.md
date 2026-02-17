@@ -1,2 +1,3 @@
-# PasswordGen
-a module for generating passwords
+﻿# Module PasswordGen
+
+Password generation module
