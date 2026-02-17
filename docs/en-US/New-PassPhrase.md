@@ -8,7 +8,8 @@ schema: 2.0.0
 # New-PassPhrase
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+
+Generates passphrase with specified conditions
 
 ## SYNTAX
 
@@ -18,21 +19,24 @@ New-PassPhrase [[-Words] <Int32>] [[-Symbol] <Char>] [[-Language] <String>] [-Nu
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+
+This function generates a passphrase.
 
 ## EXAMPLES
 
 ### Example 1
+
 ```powershell
-PS C:\> {{ Add example code here }}
+New-PassPhrase -Words 6 -Number
 ```
 
-{{ Add example description here }}
+Generates a passphrase with 6 words in it and includes a number.
 
 ## PARAMETERS
 
 ### -Capital
-{{ Fill Capital Description }}
+
+Capitalize random word's first character
 
 ```yaml
 Type: SwitchParameter
@@ -47,7 +51,8 @@ Accept wildcard characters: False
 ```
 
 ### -Language
-{{ Fill Language Description }}
+
+Specifies wordlist language
 
 ```yaml
 Type: String
@@ -57,13 +62,14 @@ Accepted values: en-US, et-EE
 
 Required: False
 Position: 2
-Default value: None
+Default value: en-US
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Number
-{{ Fill Number Description }}
+
+Include number in the end of random word
 
 ```yaml
 Type: SwitchParameter
@@ -78,7 +84,8 @@ Accept wildcard characters: False
 ```
 
 ### -Symbol
-{{ Fill Symbol Description }}
+
+The symbol to use as word separator
 
 ```yaml
 Type: Char
@@ -94,7 +101,8 @@ Accept wildcard characters: False
 ```
 
 ### -Words
-{{ Fill Words Description }}
+
+Number of words to include.  The number should be between 2 and 10.
 
 ```yaml
 Type: Int32
@@ -103,7 +111,7 @@ Aliases:
 
 Required: False
 Position: 0
-Default value: None
+Default value: 4
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -119,6 +127,10 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### System.String
 
+A generated passphrase
+
 ## NOTES
 
 ## RELATED LINKS
+
+[New-Password](New-Password.md)

@@ -8,12 +8,12 @@ Locale: en-US
 
 # PasswordGen Module
 ## Description
-{{ Fill in the Description }}
+Password generation module
 
 ## PasswordGen Cmdlets
-### [Get-RandomString](Get-RandomString.md)
-Generates random string from provided characters
-
 ### [New-PassPhrase](New-PassPhrase.md)
-{{ Fill in the Synopsis }}
+Generates passphrase with specified conditions
+
+### [New-Password](New-Password.md)
+Generates a random password string.
 

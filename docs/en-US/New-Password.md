@@ -8,7 +8,8 @@ schema: 2.0.0
 # New-Password
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+
+Generates a random password string.
 
 ## SYNTAX
 
@@ -18,21 +19,24 @@ New-Password [[-Length] <Int32>] [[-Number] <Char[]>] [[-Letter] <Char[]>] [[-Ca
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+
+This function generates string of random characters meant to be used as password.
 
 ## EXAMPLES
 
 ### Example 1
+
 ```powershell
-PS C:\> {{ Add example code here }}
+Get-Password -Length 20
 ```
 
-{{ Add example description here }}
+Generates a string with length of 20 characters.
 
 ## PARAMETERS
 
 ### -Capital
-{{ Fill Capital Description }}
+
+Specifies capital letters to use when generating password
 
 ```yaml
 Type: Char[]
@@ -41,13 +45,14 @@ Aliases:
 
 Required: False
 Position: 3
-Default value: None
+Default value: ABCDEFGHJKLMNPRSTUVWXYZ
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Length
-{{ Fill Length Description }}
+
+Specifies desired password length
 
 ```yaml
 Type: Int32
@@ -56,13 +61,14 @@ Aliases:
 
 Required: False
 Position: 0
-Default value: None
+Default value: random number between 15 and 20
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Letter
-{{ Fill Letter Description }}
+
+Specifies lowercase letters to use when generating password
 
 ```yaml
 Type: Char[]
@@ -71,13 +77,14 @@ Aliases:
 
 Required: False
 Position: 2
-Default value: None
+Default value: abcdefghijkmnpqrstuvwxyz
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Number
-{{ Fill Number Description }}
+
+Specifies numbers to use when generating password
 
 ```yaml
 Type: Char[]
@@ -86,13 +93,14 @@ Aliases:
 
 Required: False
 Position: 1
-Default value: None
+Default value: 23456789
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -Symbol
-{{ Fill Symbol Description }}
+
+Specifies other symbols to use when generating password.
 
 ```yaml
 Type: Char[]
@@ -116,6 +124,8 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### System.String
+
+a generated password
 
 ## NOTES
 
