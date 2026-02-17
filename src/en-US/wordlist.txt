@@ -285,6 +285,7 @@ aqua
 aqueduct
 arbitrary
 arbitrate
+architect
 ardently
 area
 arena
@@ -319,7 +320,6 @@ arrogant
 arson
 art
 ascend
-ascension
 ascent
 ascertain
 ashamed
@@ -446,7 +446,6 @@ backyard
 bacon
 bacteria
 bacterium
-badass
 badge
 badland
 badly
@@ -655,6 +654,7 @@ boxer
 boxing
 boxlike
 boxy
+branch
 breach
 breath
 breeches
@@ -771,6 +771,7 @@ cabana
 cabbage
 cabbie
 cabdriver
+cabinet
 cable
 caboose
 cache
@@ -830,12 +831,12 @@ capably
 capacity
 cape
 capillary
-capital
 capitol
 capped
 capricorn
 capsize
 capsule
+captain
 caption
 captivate
 captive
@@ -874,7 +875,6 @@ carried
 carrot
 carrousel
 carry
-cartel
 cartload
 carton
 cartoon
@@ -890,6 +890,7 @@ casing
 casino
 casket
 cassette
+castle
 casually
 casualty
 catacomb
@@ -1039,7 +1040,6 @@ chowtime
 chrome
 chubby
 chuck
-chug
 chummy
 chump
 chunk
@@ -1289,6 +1289,7 @@ control
 contusion
 convene
 convent
+cool
 copartner
 cope
 copied
@@ -1340,13 +1341,13 @@ countable
 countdown
 counting
 countless
-country
 county
 courier
 covenant
 cover
 coveted
 coveting
+cower
 coyness
 cozily
 coziness
@@ -1379,7 +1380,6 @@ crayon
 crazed
 crazily
 craziness
-crazy
 creamed
 creamer
 creamlike
@@ -1601,6 +1601,7 @@ deception
 deceptive
 decibel
 decidable
+decide
 decimal
 decimeter
 decipher
@@ -1682,6 +1683,7 @@ deluxe
 demanding
 demeaning
 demeanor
+demented
 demise
 democracy
 democrat
@@ -1950,7 +1952,6 @@ dosage
 dose
 dotted
 doubling
-douche
 dove
 down
 dowry
@@ -2006,7 +2007,6 @@ drizzly
 drone
 drool
 droop
-drop-down
 dropbox
 dropkick
 droplet
@@ -2086,6 +2086,7 @@ earthling
 earthly
 earthworm
 earthy
+earwax
 earwig
 easeful
 easel
@@ -2274,7 +2275,6 @@ enquirer
 enrage
 enrich
 enroll
-enslave
 ensnare
 ensure
 entail
@@ -2302,6 +2302,7 @@ envision
 envoy
 envy
 enzyme
+epaulet
 epic
 epidemic
 epidermal
@@ -2337,7 +2338,6 @@ escapable
 escapade
 escapist
 escargot
-eskimo
 esophagus
 espionage
 espresso
@@ -2525,7 +2525,6 @@ feed
 feel
 feisty
 feline
-felt-tip
 feminine
 feminism
 feminist
@@ -2688,6 +2687,7 @@ footsie
 footsore
 footwear
 footwork
+forfeit
 fossil
 foster
 founder
@@ -3259,6 +3259,8 @@ hesitant
 hesitate
 hexagon
 hexagram
+highlight
+hospital
 hubcap
 huddle
 huddling
@@ -3280,10 +3282,8 @@ humongous
 humorist
 humorless
 humorous
-humpback
 humped
 humvee
-hunchback
 hundredth
 hunger
 hungrily
@@ -3354,7 +3354,6 @@ image
 imaginary
 imagines
 imaging
-imbecile
 imitate
 imitation
 immature
@@ -3409,6 +3408,7 @@ impulse
 impulsive
 impure
 impurity
+innocent
 iodine
 iodize
 ion
@@ -3682,7 +3682,6 @@ letter
 lettuce
 level
 leverage
-levers
 levitate
 levitator
 liability
@@ -3741,6 +3740,7 @@ livestock
 lividly
 living
 lizard
+logjam
 lubricant
 lubricate
 lucid
@@ -3914,6 +3914,7 @@ maximum
 maybe
 mayday
 mayflower
+mirror
 moaner
 moaning
 mobile
@@ -4070,7 +4071,6 @@ mutation
 mute
 mutilated
 mutilator
-mutiny
 mutt
 mutual
 muzzle
@@ -4149,6 +4149,7 @@ ninetieth
 ninja
 nintendo
 ninth
+notion
 nuclear
 nuclei
 nucleus
@@ -4167,7 +4168,6 @@ nuptials
 nursery
 nursing
 nurture
-nutcase
 nutlike
 nutmeg
 nutrient
@@ -4218,6 +4218,7 @@ octagon
 octane
 october
 octopus
+official
 ogle
 oil
 oink
@@ -4225,7 +4226,6 @@ ointment
 okay
 old
 olive
-olympics
 omega
 omen
 ominous
@@ -4877,6 +4877,7 @@ profanity
 professed
 professor
 profile
+profit
 profound
 profusely
 progeny
@@ -4934,7 +4935,6 @@ proxy
 prozac
 prude
 prudishly
-prune
 pruning
 pry
 psychic
@@ -5018,6 +5018,7 @@ quartered
 quarterly
 quarters
 quartet
+queasy
 quench
 query
 quicken
@@ -5693,7 +5694,6 @@ scorer
 scoring
 scorn
 scorpion
-scotch
 scoundrel
 scoured
 scouring
@@ -6328,6 +6328,7 @@ steadfast
 steadier
 steadily
 steadying
+steak
 steam
 steed
 steep
@@ -6544,6 +6545,7 @@ sullen
 sulphate
 sulphuric
 sultry
+summer
 superbowl
 superglue
 superhero
@@ -6592,7 +6594,6 @@ swab
 swaddling
 swagger
 swampland
-swan
 swapping
 swarm
 sway
@@ -6637,7 +6638,6 @@ synthesis
 synthetic
 syrup
 system
-t-shirt
 tabasco
 tabby
 tableful
@@ -6702,6 +6702,8 @@ tattling
 tattoo
 taunt
 tavern
+teacup
+tender
 thank
 that
 thaw
@@ -6926,7 +6928,6 @@ turbofan
 turbojet
 turbulent
 turf
-turkey
 turmoil
 turret
 turtle
@@ -7608,8 +7609,8 @@ wasting
 watch
 water
 waviness
-waving
 wavy
+wealth
 whacking
 whacky
 wham
@@ -7745,7 +7746,6 @@ yiddish
 yield
 yin
 yippee
-yo-yo
 yodel
 yoga
 yogurt
