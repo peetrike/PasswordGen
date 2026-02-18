@@ -1,6 +1,6 @@
 ﻿@{
     RootModule        = 'PasswordGen.psm1'
-    ModuleVersion     = '0.1.0'
+    ModuleVersion     = '0.1.1'
 
     GUID              = '13b949c6-924f-422d-b919-916aaa633e40'
 
