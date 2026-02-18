@@ -58,18 +58,18 @@
             MaximumLineLength = 115
         }
 
-        <# PSAvoidOverwritingBuiltInCmdlets = @{
+        PSAvoidOverwritingBuiltInCmdlets          = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/avoidoverwritingbuiltincmdlets
             'PowerShellVersion' = @(
                 #'desktop-2.0-windows'
                 #'desktop-3.0-windows'
                 #'desktop-4.0-windows'
                 'desktop-5.1.14393.206-windows'
-                'core-6.1.0-windows'
+                #'core-6.1.0-windows'
                 #'core-6.1.0-linux'
                 #'core-6.1.0-macos'
             )
-        } #>
+        }
 
         PSAvoidSemicolonsAsLineTerminators        = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/avoidsemicolonsaslineterminators
@@ -104,7 +104,7 @@
             Placement = 'begin'
         }
 
-        PSUseCompatibleCmdlets                    = @{
+        <# PSUseCompatibleCmdlets                    = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/UseCompatibleCmdlets
             Compatibility = @(
                 'desktop-2.0-windows'
@@ -115,7 +115,7 @@
                 #'core-6.1.0-linux'
                 #'core-6.1.0-macos'
             )
-        }
+        } #>
 
         PSUseCompatibleCommands                   = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/UseCompatibleCommands
@@ -159,7 +159,7 @@
                 'win-8_x64_10.0.14393.0_7.0.0_x64_3.1.2_core' # Server 2016 PS 7
                 'win-8_x64_10.0.17763.0_7.0.0_x64_3.1.2_core' # Server 2019 PS 7
                 'win-4_x64_10.0.18362.0_7.0.0_x64_3.1.2_core' # Win10 PS 7
-                #'ubuntu_x64_18.04_7.0.0_x64_3.1.2_core'
+                'ubuntu_x64_18.04_7.0.0_x64_3.1.2_core'
             )
             # You can specify types to not check like this, which will also ignore methods and members on it:
             <# IgnoreTypes = @(
