@@ -29,15 +29,9 @@ New-Password -Length 32
 
 Generates random string with length of 32 characters.
 
-# NOTE
-
-{{ Note Placeholder - Additional information that a user needs to know.}}
-
 # SEE ALSO
 
-{{ See also placeholder }}
-
-{{ You can also list related articles, blogs, and video URLs. }}
+[Windows LAPS passwords and passphrases](https://learn.microsoft.com/windows-server/identity/laps/laps-concepts-passwords-passphrases)
 
 # KEYWORDS
 
