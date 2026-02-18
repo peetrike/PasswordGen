@@ -21,6 +21,7 @@ New-Password [[-Length] <Int32>] [[-Number] <Char[]>] [[-Letter] <Char[]>] [[-Ca
 ## DESCRIPTION
 
 This function generates string of random characters meant to be used as password.
+Function uses character sets with some characters removed for improved readability.
 
 ## EXAMPLES
 
@@ -125,7 +126,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ### System.String
 
-a generated password
+Generated password
 
 ## NOTES
 
