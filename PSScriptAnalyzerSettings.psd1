@@ -87,6 +87,11 @@
             Enable = $true
         }
 
+        <# PSAvoidUsingPositionalParameters          = @{
+            # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/avoidusingpositionalparameters
+            CommandAllowList = @()
+        } #>
+
         PSPlaceCloseBrace                         = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/PlaceCloseBrace
             Enable            = $true
@@ -101,19 +106,19 @@
 
         PSProvideCommentHelp                      = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/ProvideCommentHelp
-            Placement = 'begin'
+            ExportedOnly = $true
+            Placement    = 'begin'
+        }
+
+        PSReviewUnusedParameter                   = @{
+            # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/reviewunusedparameter
+            CommandsToTraverse = @()
         }
 
         <# PSUseCompatibleCmdlets                    = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/UseCompatibleCmdlets
             Compatibility = @(
                 'desktop-2.0-windows'
-                #'desktop-3.0-windows'
-                #'desktop-4.0-windows'
-                #'desktop-5.1.14393.206-windows'
-                #'core-6.1.0-windows'
-                #'core-6.1.0-linux'
-                #'core-6.1.0-macos'
             )
         } #>
 
@@ -141,8 +146,9 @@
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/UseCompatibleSyntax
             Enable         = $true
             TargetVersions = @(
-                '6.0'
+                '7.0'
                 '5.1'
+                #'4.0'
                 #'3.0'
             )
         }
@@ -172,6 +178,17 @@
             Enable = $true
         } #>
 
+        PSUseConsistentParameterSetName           = @{
+            # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/useconsistentparametersetname
+            Enable = $true
+        }
+
+        PSUseConsistentParametersKind             = @{
+            # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/useconsistentparameterskind
+            Enable         = $true
+            ParametersKind = 'ParamBlock'
+        }
+
         PSUseConsistentWhitespace                 = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/UseConsistentWhitespace
             Enable                                  = $true
@@ -180,8 +197,18 @@
             IgnoreAssignmentOperatorInsideHashTable = $true
         }
 
+        PSUseConstrainedLanguageMode              = @{
+            # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/useconstrainedlanguagemode
+            Enable = $false
+        }
+
         PSUseCorrectCasing                        = @{
             # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/usecorrectcasing
+            Enable = $true
+        }
+
+        PSUseSingleValueFromPipelineParameter     = @{
+            # https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/rules/UseSingleValueFromPipelineParameter
             Enable = $true
         }
 
